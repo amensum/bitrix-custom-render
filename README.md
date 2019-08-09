@@ -1,5 +1,4 @@
-# bitrix-custom-render
-Bitrix render component
+# Bitrix render component
 
 __Calling example:__
 ```php
