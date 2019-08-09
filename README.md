@@ -18,7 +18,7 @@ $APPLICATION->IncludeComponent(
 			"IBLOCK_ID",
 			"NAME",
 			"PREVIEW_PICTURE",
-      "DETAIL_PICTURE"
+			"DETAIL_PICTURE"
 		],
 		"PICTURES_WIDTH" => "256",
 		"PICTURES_HEIGHT" => "256"
