@@ -7,21 +7,21 @@ $APPLICATION->IncludeComponent(
 	"",
 	[
 		"ORDER" => [
-			"SORT" => "ASC"
+			"SORT" => "ASC",
 		],
 		"FILTER" => [
 			"IBLOCK_ID" => "1",
-			"ACTIVE" => "Y"
+			"ACTIVE" => "Y",
 		],
 		"FIELDS" => [
 			"ID",
 			"IBLOCK_ID",
 			"NAME",
 			"PREVIEW_PICTURE",
-			"DETAIL_PICTURE"
+			"DETAIL_PICTURE",
 		],
 		"PICTURES_WIDTH" => "256",
-		"PICTURES_HEIGHT" => "256"
+		"PICTURES_HEIGHT" => "256",
 	]
 );
 ```
