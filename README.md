@@ -1,4 +1,4 @@
-# Bitrix render component
+# Bitrix custom render component
 
 __Calling example:__
 ```php
