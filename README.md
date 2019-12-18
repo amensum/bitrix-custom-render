@@ -13,6 +13,9 @@ $APPLICATION->IncludeComponent(
 			"IBLOCK_ID" => "1",
 			"ACTIVE" => "Y",
 		],
+        "NAV_PARAMS" => [
+			"nTopCount" => "1",
+		],
 		"FIELDS" => [
 			"ID",
 			"IBLOCK_ID",
