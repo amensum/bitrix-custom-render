@@ -15,7 +15,7 @@ class Render extends CBitrixComponent {
 			$this->arParams["ORDER"],
 			$this->arParams["FILTER"],
 			false,
-			false,
+			$this->arParams["NAV_PARAMS"],
 			$this->arParams["FIELDS"]
 		);
 		while ($db_el = $db_list->GetNext()) {
