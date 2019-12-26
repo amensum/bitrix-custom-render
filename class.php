@@ -5,7 +5,7 @@ use \Bitrix\Main\Loader;
 /**
  * Class Render
  */
-class Render extends CBitrixComponent {
+class CustomRenderComponent extends CBitrixComponent {
 	
 	public function executeComponent() {
 		
