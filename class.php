@@ -14,7 +14,7 @@ class CustomRenderComponent extends CBitrixComponent {
 		$db_list = \CIBlockElement::GetList(
 			$this->arParams["ORDER"],
 			$this->arParams["FILTER"],
-			false,
+			$this->arParams["GROUP_BY"],
 			$this->arParams["NAV_PARAMS"],
 			$this->arParams["FIELDS"]
 		);
